@@ -1,0 +1,10 @@
+  <div class="container">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+                <h1><%= @title %></h1>
+                    <% @photos.each do |photo| %>
+                        <img src="<%= photo.images.thumbnail.url %>" />
+                    <% end %>
+            </div>
+		</div><! --/row -->
+	</div><! --/container -->

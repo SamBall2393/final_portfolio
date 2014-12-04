@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- tells bootstrap to make site as big as the screen -->
+    <meta name="description" content="<%= @description %> ">
+    <meta name="author" content="Samantha Marie Ballard">
+    <link rel="shortcut icon" href="/ico/favicon.ico"> <!-- Make an Icon that represents you -->
+
+    <title>Samantha Marie Ballard's About Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/hover.zoom.js"></script>
+    <script src="/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" class=" <%= @home %> " href="/">SAMANTHA BALLARD</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class=" <%= @about %> "><a href="/about">About</a></li>
+            <li class=" <%= @work %> "><a href="/work">Art</a></li>
+            <li class=" <%= @tweets %> "><a href="/tweets">Tweets</a></li>
+            <li class=" <%= @insta %> "><a href="/insta">Instagram</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <%= yield %>
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>My Not So Secret Bunker</h4>
+					<p>
+                        1231 Ross St Ln,<br/>
+						Macon, Ga.<br/>
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>My Links</h4>
+					<p>
+						<a href="http://vennik.tumblr.com/">Tumblr</a><br/>
+						<a href="https://twitter.com/SamBall23">Twitter</a><br/>
+						<a href="https://www.facebook.com/samantha.ballard.9699">Facebook</a><br/>
+                        <a href="http://instagram.com/s.ballard.93">Instagram</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>About Samantha</h4>
+					<p>She is a cute, interesting female student that lables herself as a geek and a weirdo, but she is happy with herself and that is what counts.</p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
