@@ -50,7 +50,7 @@ end
 
 get '/insta' do
     require "instagram"
-    @title = "Instagram"
+    @title = "Instagram Photos about Mercer University"
     @discripton = "This page provides links to the pictures from instagram that Samantha Marie Ballard finds interesting"
     @works = "active"
 
