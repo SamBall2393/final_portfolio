@@ -118,6 +118,7 @@ a:after {
 	font-weight: 700;
 	font-size: 20px;
 	letter-spacing: 2px;
+    font-family: 'Lucida Handwriting', cursive;
 }
 
 .navbar-inverse .navbar-brand {
@@ -136,13 +137,13 @@ a:after {
 /* Helpers */
 
 .mt {
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 40px;
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
